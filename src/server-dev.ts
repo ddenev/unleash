@@ -76,7 +76,10 @@ process.nextTick(async () => {
                     maxAge: 4000,
                 },
                 */
-                enterpriseVersion: '6.4.0'
+                enterpriseVersion: '6.4.0',
+                ui: {
+                    environment: 'Pro'
+                }
             }),
         );
     } catch (error) {
